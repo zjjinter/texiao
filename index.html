@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="css/zzsc.css" rel="stylesheet" type="text/css" />
+		<title></title>
+		<style>
+		.mynav {
+	width:1325px;
+	margin:50px auto;
+	display:inline-block;
+}
+.mynav .box1 {
+	width:1300px;
+	height:100px;
+	margin: auto;
+	perspective:4000px;
+	-webkit-perspective:4000px;
+	margin-right:8px;
+}
+.mynav .box1 a {
+	text-decoration:none;
+	display:block;
+	height:100px;
+	transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+	transition:all 1s;
+	-webkit-transition:all 1s;
+}
+.mynav .box1 a:hover {
+	transform:rotateX(90deg);
+	-webkit-rotateX(90deg);
+}
+.mynav .box1 a p {
+	text-align:center;
+	line-height:100px;
+	height:100px;
+	font-family:"微软雅黑";
+	color:white;
+	font-size:20px;
+	margin:0px;
+	border-radius:3px;
+}
+.mynav .box1 a p:first-child {
+	background-color:coral;
+	transform:translateZ(50px);
+}
+.mynav .box1 a p:last-child {
+	background-color:#d655ff;
+	transform:rotateX(-90deg) translateZ(-50px);
+	-webkit-transform:rotateX(-90deg) translateZ(-50px);
+}
+img:hover {
+	-webkit-animation:sucaijiayuan 1s .1s ease both;
+	-moz-animation:tada 1s .1s ease both;
+}
+@-webkit-keyframes sucaijiayuan {
+	0% {
+	-webkit-transform:scale(1)
+}
+10%,20% {
+	-webkit-transform:scale(0.8) rotate(-2deg)
+}
+30%,50%,70%,90% {
+	-webkit-transform:scale(1.1) rotate(2deg)
+}
+40%,60%,80% {
+	-webkit-transform:scale(1.1) rotate(-2deg)
+}
+100% {
+	-webkit-transform:scale(1) rotate(0)
+}
+
+		</style>
+	</head>
+	<body>
+		<header class="mynav">
+			<div class="box1">
+			    <a href="#">
+				    <p>把鼠标这里</p>
+				    <p>翻转成功了！</p>
+			    </a>
+		    </div>
+		</header>
+		<img src="img/2345_image_file_copy_2.jpg"width="800px"height="400px" />
+		<img src="img/u=2056930900,3978562648&fm=200&gp=0.jpg"width="800px"/>
+		<div class="android">
+	<div class="head">
+		<div class="l_ant"></div>
+		<div class="r_ant"></div>
+		<div class="l_eye"></div>
+		<div class="r_eye"></div>
+	</div>
+	<div class="body">
+		<div class="l_arm"></div>
+		<div class="r_arm"></div>
+		<div class="l_leg"></div>
+		<div class="r_leg"></div>
+	</div>
+</div>
+<div style="text-align:center;clear:both">
+	
+	</body>
+</html>
